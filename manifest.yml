@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-world-toolchain-test-liberty
+  memory: 512M
+  host: hello-world-toolchain-test-liberty
+  domain: mybluemix.net
+  env:
+    JBP_CONFIG_LIBERTY: 'app_archive: {features: [jsp-2.3, websocket-1.1]}'
