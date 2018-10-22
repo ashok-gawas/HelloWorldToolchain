@@ -1,8 +1,8 @@
 ---
 applications:
-- name: hello-world-toolchain-test-liberty
+- name: hello-world-toolchain-dp-ashok
   memory: 512M
-  host: hello-world-toolchain-test-liberty
+  host: hello-world-toolchain-dp-ashok
   domain: mybluemix.net
   env:
     JBP_CONFIG_LIBERTY: 'app_archive: {features: [jsp-2.3, websocket-1.1]}'
