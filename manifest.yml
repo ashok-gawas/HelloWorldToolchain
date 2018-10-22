@@ -1,8 +1,9 @@
 ---
 applications:
 - name: hello-world-toolchain-dp-ashok
+  random-route: true
+  path: target/hello-world-toolchain-dp-ashok.war
   memory: 512M
-  host: hello-world-toolchain-dp-ashok
-  domain: mybluemix.net
+  instances: 1
   env:
     JBP_CONFIG_LIBERTY: 'app_archive: {features: [jsp-2.3, websocket-1.1]}'
